@@ -1,0 +1,27 @@
+---
+title: "Code book"
+output: pdf_document
+---
+
+## This code book is to explain the tidy data set from the tidy data.txt file.
+
+The tidy data.txt is a text file that contains the tidy data set, it is in a table form which consits of rows and columns. The column headings are as follows: 1) Subject, 2) Activity, 3) Accelerometer and gyroscope.
+
+## Explaining how the data was transformed:
+
+- Read in the data
+
+- Define the features for the standard deviations and the means
+
+- The remaining data is the one that has the relevant standard deviations and means
+
+- Transform the activity names
+
+- Change the data into two columns
+
+- Save the new data
+
+## About the source data
+
+
+The source data are from the Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
